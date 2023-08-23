@@ -10,3 +10,12 @@ function addBookToLibrary(title, autor, pages) {
     const newBook = new Book(title, autor, pages);
     myLibrary.push(newBook);
   }
+
+  // exemple usage 
+  addBookToLibrary("The Hobbit", "J.R.R. Tolkien", 300);
+  addBookToLibrary("To Kill a Mockingbird", "Harper Lee", 320);
+
+  console.log(myLibrary);
+  
+
+
