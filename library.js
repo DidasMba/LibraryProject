@@ -17,5 +17,19 @@ function addBookToLibrary(title, autor, pages) {
 
   console.log(myLibrary); // This will show the array of book objects
 
+// // Function to display books on the page
+  function displayBooks(){
+    const booksContainer = document.getElementById("books-container"); // Assuming you have a <div> with id "books-container" in your HTML
+     
+    // Clear the container before adding new books
+    booksContainer.innerHTML ="";
+    
+   //Loop through the library array and create a card for each book
+   myLibrary.forEach((book, index) => {
+    const bookCard = document.createElement("div");
+    bookCard.classList.add("book-card"); // Apply styles using CSS
+
+}
+
 
 
