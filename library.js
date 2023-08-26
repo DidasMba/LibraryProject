@@ -89,10 +89,15 @@ function displayBooks() {
     newBookDialog.close(); // Close the dialog after adding the book
     displayBooks(); // Refresh the book display
 });
-  // apdate display function
-function displayBooks(){
 
-}
 
+  
+  
+
+
+  
+  
+  
+  
   
 
