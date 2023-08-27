@@ -90,9 +90,30 @@ function displayBooks() {
     displayBooks(); // Refresh the book display
 });
 
+// add book on the list
+  
+const addBookButton = document.getElementById("add-book-button");
 
-  
-  
+addBookButton.addEventListener("click", () => {
+  const title = document.getElementById("title").value;
+  const author = document.getElementById("author").value;
+  const pages = parseInt(document.getElementById("pages").value);
+
+  if (title && author && pages) {
+    addBookToLibrary(title, author, pages); // Call the function to add the book
+    displayBooks(); // Refresh the book display
+    clearForm(); // Clear the form fields
+  } else {
+    alert("Please fill in all fields.");
+  }
+});
+
+function clearForm() {
+  document.getElementById("title").value = "";
+  document.getElementById("author").value = "";
+  document.getElementById("pages").value = "";
+}
+
 
 
   
