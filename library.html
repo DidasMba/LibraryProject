@@ -7,14 +7,38 @@
     <title>Library</title>
 </head>
 <body>
-    <h1>Library</h1>
+    <header>
+        <h1>LIBRARY</h1>
+        <img src="path/to/your/image.jpg" alt="Header Image">
+        <button id="new-book-button">NEW BOOK</button>
+    </header>
+   
+    <button id="new-book-button">NEW BOOK</button>
 
+    <dialog id="new-book-dialog">
+      <form id="new-book-form">
+        <label for="title">Title:</label>
+        <input type="text" id="title" required><br>
+    
+        <label for="author">Author:</label>
+        <input type="text" id="author" required><br>
+    
+        <label for="pages">Pages:</label>
+        <input type="number" id="pages" required><br>
+    
+        <!-- Add more fields as needed -->
+    
+        <button type="submit">Add Book</button>
+      </form>
+    </dialog>
 
+   
     <div id="books-container">
         <!-- Book cards will be added here by JavaScript -->
     </div>
 
     <!-- Your content will go here -->
     <script src="library.js"></script>
+    
 </body>
 </html>

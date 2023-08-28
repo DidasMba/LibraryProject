@@ -16,4 +16,27 @@ body{
     margin: 10px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   }
+  /* Style the remove button inside the book card */
+.book-card .remove-button {
+    background-color: #ff5252;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+
+
+
+
+  // More INFO
+
+  .more{
+    border: 1px solid #6e4091;
+    background-color: white;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+
   
